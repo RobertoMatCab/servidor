@@ -1,4 +1,4 @@
-importScripts("/servidor/precache-manifest.91a35f0403c9b94555382c89374244ff.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/servidor/precache-manifest.81bda5956bf0454e07f6c698e06532d3.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts('https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/5.6.0/firebase-messaging.js');
@@ -8,7 +8,8 @@ workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(
-    new RegExp('https://firebasestorage.googleapis.com/v0/b/vue-firebase-tutorial.appspot.com/.*'),
+    new RegExp('https://firebasestorage.googleapis.com/v0/b/vue-firebase-tutorial-7ee46.appspot.com/.*'),
+    //NO ME BORRES PORFA
     workbox.strategies.staleWhileRevalidate()
 );
 
